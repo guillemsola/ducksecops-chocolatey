@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rekor-cli</id>
+    <version>0.3.0</version>
+    <title>Rekor CLI</title>
+    <authors>Sigstore</authors>
+    <owners>ducksecops</owners>
+    <projectUrl>https://github.com/sigstore/rekor</projectUrl>
+    <licenseUrl>https://www.zspapapa.com/sigstore/rekor/blob/main/LICENSE</licenseUrl>
+    <iconUrl>https://next.redhat.com/wp-content/uploads/2021/10/Symbol_200x200.png</iconUrl>
+    <copyright>Copyright © 2021 The Linux Foundation®. All rights reserved</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://docs.sigstore.dev/</docsUrl>
+    <bugTrackerUrl>https://www.zspapapa.com/sigstore/rekor/issues</bugTrackerUrl>
+    <tags>Rekor Security CNCF</tags>
+    <summary>CLI tool for managing Rekor Server</summary>
+    <description>Rekor's goals are to provide an immutable tamper resistant ledger of metadata generated within a software projects supply chain. Rekor will enable software maintainers and build systems to record signed metadata to an immutable record. Other parties can then query said metadata to enable them to make informed decisions on trust and non-repudiation of an object's lifecycle.</description>
+    <releaseNotes>https://www.zspapapa.com/sigstore/rekor/releases</releaseNotes>
+    <packageSourceUrl>hhttps://github.com/ducksecops/ducksecops-chocolatey/tree/main/rekor-cli</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
