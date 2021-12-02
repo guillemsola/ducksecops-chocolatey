@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>snyk</id>
+    <version>1.781.0</version>
+    <title>Snyk</title>
+    <authors>Snyk</authors>
+    <owners>ducksecops</owners>
+    <projectUrl>https://github.com/snyk/snyk</projectUrl>
+    <licenseUrl>https://github.com/snyk/snyk/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/12959162</iconUrl>
+    <copyright>Copyright © 2020. Snyk. All Rights Reserved</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://support.snyk.io/hc/en-us</docsUrl>
+    <bugTrackerUrl>https://github.com/snyk/snyk/issues</bugTrackerUrl>
+    <tags>snyk cli</tags>
+    <summary>Synk Vulnerability Scanning CLI Tool</summary>
+    <description>CLI and build-time tool to find and fix known vulnerabilities in open-source dependencies</description>
+    <releaseNotes>https://github.com/snyk/snyk/releases</releaseNotes>
+    <packageSourceUrl>hhttps://github.com/ducksecops/ducksecops-chocolatey/tree/main/snyk</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
