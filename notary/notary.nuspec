@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>notary</id>
+    <version>0.6.1</version>
+    <title>Notary</title>
+    <authors>notary</authors>
+    <owners>ducksecops</owners>
+    <projectUrl>https://github.com/notaryproject/notary</projectUrl>
+    <licenseUrl>https://github.com/notaryproject/notary/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://landscape.cncf.io/logos/notary.svg</iconUrl>
+    <copyright>Copyright © 2020. Snyk. All Rights Reserved</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://notaryproject.dev/docs/</docsUrl>
+    <bugTrackerUrl>https://github.com/notaryproject/notary/issues</bugTrackerUrl>
+    <tags>notary cncf</tags>
+    <summary>Notary is a project that allows anyone to have trust over arbitrary collections of data </summary>
+    <description>Notary is a project that allows anyone to have trust over arbitrary collections of data </description>
+    <releaseNotes>https://github.com/notaryproject/notary/releases</releaseNotes>
+    <packageSourceUrl>hhttps://github.com/ducksecops/ducksecops-chocolatey/tree/main/notary</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
