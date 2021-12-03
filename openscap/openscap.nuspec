@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>openscap</id>
+    <version>1.35.0</version>
+    <title>OpenSCAP</title>
+    <authors>Redhat</authors>
+    <owners>ducksecops</owners>
+    <projectUrl>https://github.com/OpenSCAP/openscap</projectUrl>
+    <licenseUrl>https://github.com/OpenSCAP/openscap/blob/maint-1.3/COPYING</licenseUrl>
+    <iconUrl>https://landscape.cncf.io/logos/open-scap.svg</iconUrl>
+    <copyright>© Red Hat 2015 - 2021</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.open-scap.org/resources/documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/OpenSCAP/openscap/issues</bugTrackerUrl>
+    <tags>SCAP OpenSCAP Security</tags>
+    <summary>NIST Certified SCAP 1.2 toolkit </summary>
+    <description>OpenSCAP represents both a library and a command line tool which can be used to parse and evaluate each component of the SCAP standard. The library approach allows for the swift creation of new SCAP tools rather than spending time learning existing file structure. The command-line tool, called oscap, offers a multi-purpose tool designed to format content into documents or scan the system based on this content. Whether you want to evaluate DISA STIGs, NIST‘s USGCB, or Red Hat’s Security Response Team’s content, all are supported by OpenSCAP</description>
+    <releaseNotes>https://github.com/OpenSCAP/openscap/releases</releaseNotes>
+    <packageSourceUrl>hhttps://github.com/ducksecops/ducksecops-chocolatey/tree/main/openscap</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
