@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pluto</id>
+    <version>5.1.1</version>
+    <title>Pluto</title>
+    <authors>FairwindsOps</authors>
+    <owners>ducksecops</owners>
+    <projectUrl>https://github.com/FairwindsOps/pluto</projectUrl>
+    <licenseUrl>https://github.com/FairwindsOps/pluto/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://landscape.cncf.io/logos/pluto.svg</iconUrl>
+    <copyright>©2021 Fairwinds Ops, Inc.</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://github.com/FairwindsOps/pluto/tree/master/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/FairwindsOps/pluto/issues</bugTrackerUrl>
+    <tags>pluto cli security cncf</tags>
+    <summary>A cli tool to help discover deprecated apiVersions in Kubernetes </summary>
+    <description>A cli tool to help discover deprecated apiVersions in Kubernetes </description>
+    <releaseNotes>https://github.com/FairwindsOps/pluto/releases</releaseNotes>
+    <packageSourceUrl>https://github.com/ducksecops/ducksecops-chocolatey/tree/main/pluto</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
