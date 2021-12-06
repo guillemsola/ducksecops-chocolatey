@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sonobuoy</id>
+    <version>0.55.1</version>
+    <title>Sonobuoy</title>
+    <authors>VMWare</authors>
+    <owners>ducksecops</owners>
+    <projectUrl>https://github.com/vmware-tanzu/sonobuoy</projectUrl>
+    <licenseUrl>https://github.com/vmware-tanzu/sonobuoy/blob/main/LICENSE</licenseUrl>
+    <iconUrl>https://landscape.cncf.io/logos/sonobuoy.svg</iconUrl>
+    <copyright>© 2021 VMware, Inc </copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://sonobuoy.io/docs/v0.55.1/</docsUrl>
+    <bugTrackerUrl>https://github.com/vmware-tanzu/sonobuoy/issues</bugTrackerUrl>
+    <tags>VMWare Tanzu kubernetes security</tags>
+    <summary>Sonobuoy is a diagnostic tool to understand the state of a Kubernetes cluster</summary>
+    <description>Sonobuoy is a diagnostic tool that makes it easier to understand the state of a Kubernetes cluster by running a set of plugins (including Kubernetes conformance tests) in an accessible and non-destructive manner. It is a customizable, extendable, and cluster-agnostic way to generate clear, informative reports about your cluster.</description>
+    <releaseNotes>https://github.com/vmware-tanzu/sonobuoy/releases/tag/v0.55.1</releaseNotes>
+    <packageSourceUrl>https://github.com/ducksecops/ducksecops-chocolatey/tree/main/sonobuoy</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
