@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rbac-lookup</id>
+    <version>0.7.1</version>
+    <title>RBAC Lookup</title>
+    <authors>FairwindsOps</authors>
+    <owners>ducksecops</owners>
+    <projectUrl>https://github.com/FairwindsOps/rbac-lookup</projectUrl>
+    <licenseUrl>https://github.com/FairwindsOps/rbac-lookup/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://landscape.cncf.io/logos/rbac-lookup.svg</iconUrl>
+    <copyright>©2021 Fairwinds Ops, Inc.</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://landscape.cncf.io/logos/rbac-lookup.svg</docsUrl>
+    <bugTrackerUrl>https://github.com/FairwindsOps/rbac-lookup/issues</bugTrackerUrl>
+    <tags>rbac-lookup rbac kubernetes security</tags>
+    <summary>Easily find roles and cluster roles attached to any user, service account, or group name in your Kubernetes cluster</summary>
+    <description>Easily find roles and cluster roles attached to any user, service account, or group name in your Kubernetes cluster</description>
+    <releaseNotes>https://github.com/FairwindsOps/rbac-lookup/releases/tag/v0.7.1</releaseNotes>
+    <packageSourceUrl>https://github.com/ducksecops/ducksecops-chocolatey/tree/main/rbac-lookup</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
