@@ -18,7 +18,7 @@
     <summary>Provides a Ziti client for Windows 10.</summary>
     <description>Provides a Ziti client for Windows 10 .</description>
     <releaseNotes>https://github.com/openziti/desktop-edge-win/releases</releaseNotes>
-    <packageSourceUrl>https://github.com/ducksecops/ducksecops-chocolatey/tree/main/zitidesktopedgeclient</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ducksecops/ducksecops-chocolatey/tree/main/zitidesktopedge</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
