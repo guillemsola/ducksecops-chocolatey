@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>snyk</id>
-    <version>v1.1168.0</version>
+    <version>1.1168.0</version>
     <title>Snyk</title>
     <authors>Snyk</authors>
     <owners>ducksecops</owners>
